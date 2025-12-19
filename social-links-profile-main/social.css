@@ -1,0 +1,91 @@
+
+
+
+body{
+    background-color: hsl(0, 0%, 8%) ;
+    font-family: "Inter";
+    font-weights: 400, 600, 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+
+    
+}
+
+.card {
+   background-color:hsl(0, 0%, 12%);
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 10px;
+   
+}
+img {
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    margin-top: 25px;
+}
+ 
+h1{
+    color: white;
+    margin-bottom: -15px;
+}
+h5{
+    color: white;
+}
+h4 {
+    color:hsl(75, 94%, 57%);
+    
+}
+
+.but{
+    background-color:hsl(0, 0%, 20%) ;
+    border-radius: 0%;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 75%;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 0.3s; 
+}
+
+.but:hover {
+    color:hsl(0, 0%, 3%) ;
+    background-color: hsl(75, 94%, 57%);
+}
+.but1 {
+     background-color:hsl(75, 94%, 57%) ;
+    border-radius: 0%;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 75%;
+    color: black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.but2 {
+     background-color:hsl(0, 0%, 20%) ;
+    border-radius: 0%;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 75%;
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    transition: all 0.3s; 
+}
+.but2:hover {
+    color:hsl(0, 0%, 3%) ;
+    background-color: hsl(75, 94%, 57%);
+}
